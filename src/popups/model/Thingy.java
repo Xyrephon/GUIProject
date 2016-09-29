@@ -1,4 +1,4 @@
-package pupups.model;
+package popups.model;
 
 public class Thingy
 {
