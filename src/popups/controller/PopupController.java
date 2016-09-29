@@ -14,14 +14,9 @@ public class PopupController
 	public void start()
 	{
 		String answer = "sample";
-		while(answer != null && !answer.equals(""))
+		while(answer != null && !isDouble(answer))
 		{
-
-			display.displayMessage("Hi there :D");
-			
-			answer = display.collectResponse("What is going on?");
-			display.displayMessage(answer + " is what you said.");
-			
+			answer = display.collectResponse("You need to type in a number!");	
 		}
 	}
 	
